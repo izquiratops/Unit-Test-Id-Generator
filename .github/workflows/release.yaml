@@ -48,7 +48,7 @@ jobs:
           git fetch origin
           
           # Checkout to master branch
-          git checkout -b master origin/master
+          git checkout -b main origin/main
 
           # Actualizar la versión y crear commit
           npm version ${{ github.event.release.tag_name }} --no-git-tag-version
