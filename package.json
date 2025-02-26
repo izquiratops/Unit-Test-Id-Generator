@@ -1,6 +1,7 @@
 {
 	"name": "ut-id-generator",
-	"displayName": "Generates IDs for unit testing",
+	"displayName": "Aizon - Unit Test ID Generator",
+	"description": "Generate a unique ID for your unit tests",
 	"version": "0.0.1",
 	"publisher": "izquiratops",
 	"repository": {
