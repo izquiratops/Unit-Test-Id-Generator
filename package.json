@@ -1,7 +1,7 @@
 {
 	"name": "ut-id-generator",
 	"displayName": "Generates IDs for unit testing",
-	"version": "0.0.1",
+	"version": "0.1.2",
 	"publisher": "izquiratops",
 	"repository": {
 		"type": "git",
