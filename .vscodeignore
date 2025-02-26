@@ -1,0 +1,10 @@
+.gitignore
+.vscode
+.github
+build.js
+node_modules
+package-lock.json
+package.json
+src
+docs
+scripts

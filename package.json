@@ -1,0 +1,42 @@
+{
+	"name": "ut-id-generator",
+	"displayName": "Generates IDs for unit testing",
+	"version": "0.0.1",
+	"publisher": "izquiratops",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/izquiratops/Unit-Test-Id-Generator"
+	},
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "ut-id-generator.appendId",
+				"title": "Append ID"
+			}
+		]
+	},
+	"scripts": {
+		"build": "node build.js",
+		"package": "npx vsce package"
+	},
+	"keywords": [
+		"vscode",
+		"extension"
+	],
+	"author": "Jordi Izquierdo <jordi.izquierdo.casares@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/vscode": "^1.97.0",
+		"@vscode/vsce": "^3.2.2",
+		"esbuild": "^0.24.2",
+		"ovsx": "^0.10.1"
+	}
+}
