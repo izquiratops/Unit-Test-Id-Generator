@@ -8,7 +8,7 @@
 		"url": "https://github.com/izquiratops/Unit-Test-Id-Generator"
 	},
 	"engines": {
-		"vscode": "^1.96.0"
+		"vscode": "^1.97.0"
 	},
 	"categories": [
 		"Other"
@@ -36,7 +36,7 @@
 	"devDependencies": {
 		"@types/vscode": "^1.97.0",
 		"@vscode/vsce": "^3.2.2",
-		"esbuild": "^0.24.2",
+		"esbuild": "^0.25.0",
 		"ovsx": "^0.10.1"
 	}
 }
